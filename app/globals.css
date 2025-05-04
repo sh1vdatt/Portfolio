@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 31, 41, 55;
+  --background-rgb: 250, 250, 249;
+  --card-bg: 236, 253, 245;
+  --accent-color: 20, 184, 166;
+  --text-primary: 31, 41, 55;
+  --text-secondary: 107, 114, 128;
+}
+
+/* Remove dark mode preferences */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    --bg-blue2: #33c0dd;
+  }
+} */
+
+/* Remove old color classes */
+/* .bg-blue {
+  background-color: #0d3c52;
+}
+
+.text-blue {
+  color: #1684a7;
+} */
