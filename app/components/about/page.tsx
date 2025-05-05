@@ -34,8 +34,7 @@ export default function About() {
   }, []);
 
   const handleDownloadCV = () => {
-    const fileId = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_LINK;
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    const downloadUrl = `https://drive.google.com/file/d/1yobeSXpRfLSoYCmXhiOBF24c3HIMFfKW/view?usp=drive_link`;
 
     const link = document.createElement("a");
     link.href = downloadUrl;
